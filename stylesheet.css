@@ -1,0 +1,167 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Ketik code Anda di bawah */
+.heading{
+    background-color: #404146;
+    color: #fff;
+    height: 90px;
+}
+.heading h1{
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    float: left;
+    font-family: Cerebri Sans;
+    font-weight: 700;
+}
+.heading p {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    float: left;
+}
+.conten{
+    width: 100%;
+    text-align: center;
+}
+.conten img{
+    width: 20%;
+}
+.conten h1{
+    font-size: 140px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: Cerebri Sans;
+    font-weight: 700;
+}
+.conten h2{
+    font-size: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    font-weight: normal;
+}
+span{
+    color:#ffd710;
+}
+.about-me{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.about-me h2{
+    padding: 20px 0px 20px 0px;
+}
+.about-me p{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*proyek*/
+.proyek{
+    height: 500px;
+    padding-top: 45px;
+    margin-left: 60px;
+    margin-right: 60px;
+  
+}
+.proyek h3{
+
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+
+ .project img{
+    width: 25%;
+    padding: 0px 65px 0px 65px;
+ }
+ 
+ .project p{
+   font-size: 24px;
+   margin: 30px;
+ }
+.project .mid{
+   margin: 30px 340px 0px 340px;
+}
+ /* Form */ 
+ .form {
+   padding-top: 45px;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-bottom: 100px;
+   background-color: #f4f4f4;
+   text-align: center;
+ }
+ .form h3{
+   font-size: 28px;
+   padding-bottom: 15px;
+   border-bottom: 2px solid #dee7ec;
+   margin-bottom: 50px;
+ }
+ 
+ .form .email, textarea{
+  
+  width: 690px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+  border-radius: 10px;
+ }
+ .submit{
+   width: 480px;
+   margin-top:10px;
+   margin-bottom:30px;
+   padding:20px;
+   font-size:18px;
+   background-color: #f7e989;
+   color: #50504f;
+   border: none;
+   border-radius: 10px;
+ }
+ .fotter{
+   background-color: #7c7d82;
+   height: 120px;
+   padding: 40px 40px 20px 40px;
+   color: #fff;
+ }
+ .fotter .title-fotter{
+   font-size: 32px;
+   float: left;
+   font-family: Cerebri Sans;
+   font-weight: 700;
+ }
+ .fotter .menu-fotter{
+   float: right;
+ }
+ .menu-fotter li{
+   padding-bottom: 20px;
+ }
